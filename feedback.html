@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Feedback - Student Hub</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="app-layout">
+<aside class="sidebar">
+<div class="sidebar-avatar"></div>
+<div class="sidebar-name">Rutv Lalani</div>
+<ul class="sidebar-nav">
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="profile.html">Profile</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="attendance.html">Attendance</a></li>
+<li><a class="active" href="feedback.html">Feedback</a></li>
+<li><a href="notices.html">Notices</a></li>
+<li><a href="settings.html">Settings</a></li>
+<li><a href="index.html">Logout</a></li>
+</ul>
+</aside>
+<main class="main-content">
+<h1 class="page-title">We Value Your Feedback</h1>
+<div class="card feedback-form">
+<form action="#" method="post">
+<label for="subject">Subject</label>
+<select class="select-input" id="subject">
+<option>Select Subject</option>
+<option>Data Structure And Algorithms</option>
+<option>Computer Networking</option>
+<option>Discrete Mathematics</option>
+<option>Web Development Framework</option>
+</select>
+<label>Rating</label>
+<div class="stars">★★★★★</div>
+<label for="feedback-text">Your Feedback</label>
+<textarea class="feedback-box" id="feedback-text" placeholder="Write your value feedback here ..."></textarea>
+<button class="btn btn-outline" style="margin-top:24px;" type="submit">Send Feedback</button>
+</form>
+</div>
+</main>
+</div>
+</body>
+</html>
